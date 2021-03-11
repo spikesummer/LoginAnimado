@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Animado</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="user signinBx">
+                <div class="imgBx">
+                    <img src="/imagens/Tropics_Sea_Scenery_Palma_Beach_512472_1080x1920.jpg" alt="">
+                </div>
+                <div class="formBx">
+                    <form>
+                        <h2>Sign in</h2>
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <input type="submit" value="Login">
+                        <p class="signup">don't have an account <a onclick="toggleForm();" href="#">Sign up.</a></p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="user signupBx">
+               
+                <div class="formBx">
+                    <form>
+                        <h2>Create an account</h2>
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email Address">
+                        <input type="password" placeholder="Create Password">
+                        <input type="password" placeholder="Confirm Password">
+                        <input type="submit" value="Sign Up">
+                        <p class="signup">Already have an account <a onclick="toggleForm();" href="#">Sign in.</a></p>
+                    </form>
+                </div>
+                <div class="imgBx">
+                    <img src="/imagens/porDoSol.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
